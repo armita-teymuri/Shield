@@ -1,15 +1,15 @@
 // import logo from './logo.svg';
-{
-  /* <img src={logo} /> */
-}
+/* <img src={logo} /> */
+
+import Board from "../components/board/Board";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <>
-      <span>Game</span>
+      <Board/>
     </>
   );
-}
+};
 
 export default App;
